@@ -33,6 +33,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--包含tomcat和spring-mvc-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
